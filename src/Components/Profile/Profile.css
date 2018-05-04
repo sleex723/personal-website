@@ -1,0 +1,19 @@
+.Profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  padding: 40px 180px;
+}
+
+.Profile .Header {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.Profile .Description {
+  font-size: 2em;
+}

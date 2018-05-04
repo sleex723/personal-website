@@ -11,22 +11,23 @@ class Header extends Component {
         <Navbar fixedTop>
           <Nav pullRight>
             <NavItem eventKey={1} href="#">
-              About
+              Profile
             </NavItem>
             <NavItem eventKey={2} href="#">
               Skills
             </NavItem>
-            <NavItem eventKey={2} href="#">
+            <NavItem eventKey={3} href="#">
               Portfolio
             </NavItem>
-            <NavItem eventKey={2} href="#">
+            <NavItem eventKey={4} href="#">
               Contact
             </NavItem>
           </Nav>
         </Navbar>
-        <div className={styles.banner}>
-          <div className={styles.head}>Hello</div>
-        </div>
+        <Jumbotron className={styles.banner}>
+            <div className={styles.BannerName}>Samuel Lee</div>
+            <div className={styles.BannerTitle}>Software Engineer</div>
+        </Jumbotron>
       </div>
     )
   }
