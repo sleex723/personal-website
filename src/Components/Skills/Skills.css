@@ -1,0 +1,26 @@
+.Background {
+  background-color: #e0e6d8;
+  /* max-width: 1280px; */
+}
+
+.SkillsContainer {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 180px;
+}
+
+.SkillsContainer .Title {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.SkillsContainer hr {
+  border: none;
+  color: #FFF;
+  background-color: #FFF;
+  height: 1px;
+}

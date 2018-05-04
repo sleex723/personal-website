@@ -3,6 +3,7 @@ import './App.css';
 import Scrollspy from 'react-scrollspy';
 import Header from './Components/Header/Header'
 import Profile from './Components/Profile/Profile';
+import Skills from './Components/Skills/Skills';
 import styles from './App.css'
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
 			<div>
 				<Header />
 				<Profile />
+				<Skills />
 			</div>
 		)
   }

@@ -1,8 +1,8 @@
 .Profile {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   margin-left: auto;
   margin-right: auto;
   max-width: 1280px;
@@ -10,10 +10,48 @@
 }
 
 .Profile .Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Profile .ProfileText {
   font-size: 3em;
   font-weight: bold;
 }
 
 .Profile .Description {
   font-size: 2em;
+}
+
+.Profile .ProfileBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Profile .About {
+  margin-left: 40px;
+}
+
+.Profile .AboutTitle {
+  font-size: 1.8em;
+}
+
+.Profile .AboutDesc {
+  font-size: 1.2em;
+}
+
+.Profile .Social {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Profile hr {
+  border: none;
+  color: #f4c430;
+  background-color: #f4c430;
+  height: 1px;
 }
