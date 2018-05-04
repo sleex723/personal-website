@@ -11,8 +11,8 @@ class App extends Component {
     return(
 			<div>
 				<Header />
-				<Profile />
-				<Skills />
+				{/* <Profile id="profile"/> */}
+				<Skills id="skills"/>
 			</div>
 		)
   }
