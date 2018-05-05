@@ -8,9 +8,13 @@ const skills = (props) => {
         <div className={styles.Title}>
           Skills
         </div>
+        <div className={styles.Desc}>
+          Things that i'm good at
+        </div>
         <hr/>
-        <div>hello</div>
       </div>
+      <hr/>
+
     </div>
   )
 }

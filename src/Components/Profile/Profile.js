@@ -23,9 +23,37 @@ const profile = (props) => {
 					</div>
 					<br />
 					<div className={styles.Social}>
-            <img src={Github} />
-            <img src={LinkedIn} />
+						<img src={Github} />
+						<img src={LinkedIn} />
 					</div>
+				</div>
+			</div>
+			<hr />
+			<div className={styles.Education}>
+				<div className={styles.EducationTitle}>Education</div>
+				<div className={styles.SchoolContainer}>
+					<div>
+						<div className={styles.SchoolTitle}>Hack Reactor</div>
+						<div className={styles.SchoolYear}>2017-2018</div>
+					</div>
+					<div>
+						<div className={styles.SchoolDesc}>
+							Advanced Software Engineering Immersive Program
+						</div>
+					</div>
+          <div className={styles.SchoolLoc}>San Francisco, CA</div>
+				</div>
+				<div className={styles.SchoolContainer}>
+					<div>
+						<div className={styles.SchoolTitle}>Pepperdine University</div>
+						<div className={styles.SchoolYear}>2007-2012</div>
+					</div>
+					<div>
+						<div className={styles.SchoolDesc}>
+							International Management, Bachelor of Arts
+						</div>
+					</div>
+          <div className={styles.SchoolLoc}>Malibu, CA</div>
 				</div>
 			</div>
 		</div>;

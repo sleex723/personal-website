@@ -28,8 +28,8 @@
 .Profile .ProfileBody {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .Profile .About {
@@ -38,6 +38,7 @@
 
 .Profile .AboutTitle {
   font-size: 1.8em;
+  font-weight: bold;
 }
 
 .Profile .AboutDesc {
@@ -47,6 +48,37 @@
 .Profile .Social {
   display: flex;
   justify-content: flex-end;
+}
+
+.Profile .Education {
+  margin-top: 50px;
+}
+
+.Profile .EducationTitle {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.Profile .SchoolTitle {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.Profile .SchoolContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-bottom: 20px;
+}
+
+.Profile .SchoolLoc {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2em;
+}
+
+.Profile .SchoolDesc {
+  font-size: 1.2em;
 }
 
 .Profile hr {

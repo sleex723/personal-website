@@ -32,7 +32,6 @@ class Header extends Component {
             <div className={styles.BannerName}>Samuel Lee</div>
             <div className={styles.BannerTitle}>Software Engineer</div>
         </Jumbotron>
-        <Profile id="profile"/>
       </div>
     )
   }
