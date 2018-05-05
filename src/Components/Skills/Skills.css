@@ -24,6 +24,21 @@
   font-size: 2em;
 }
 
+.SkillsContainer .Stars {
+  color: #f4c430;
+}
+
+.SkillsContainer .SkillTitle {
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.SkillsContainer .Skill {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2em;
+}
+
 .SkillsContainer hr {
   border: none;
   color: #f4c430;

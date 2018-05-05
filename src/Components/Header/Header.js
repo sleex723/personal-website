@@ -10,13 +10,18 @@ class Header extends Component {
   render() {
     return(
       <div>
-        <Scrollspy items={ ['profile', 'skills', 'contact'] } currentClassName="is-current">
+        <Scrollspy items={ ['home', 'profile', 'skills', 'contact'] } currentClassName="is-current">
           <Navbar fixedTop>
+            <Navbar.Header>
+              <Navbar.Brand>
+                <a href="#home">Samuel Lee</a>
+              </Navbar.Brand>
+            </Navbar.Header>
             <Nav pullRight>
-              <NavItem href="#profile">
+              <NavItem eventKey={1} href="#profile">
                 Profile
               </NavItem>
-              <NavItem ieventKey={2} href="#skills">
+              <NavItem eventKey={2} href="#skills">
                 Skills
               </NavItem>
               <NavItem eventKey={3} href="#">

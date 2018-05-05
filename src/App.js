@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return(
 			<div>
-				<Header />
+				<section id="home"><Header /></section>
 				<section id="profile"><Profile /></section>
 				<section id="skills"><Skills /></section>
 				<section id="contact"><Contact /></section>
