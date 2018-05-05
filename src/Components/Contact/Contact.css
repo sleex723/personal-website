@@ -1,0 +1,55 @@
+.Background {
+  background-color: #e0e6d8;
+}
+
+.Contact {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  padding: 40px 180px;
+}
+
+.Contact .Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contact .Title {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.Contact .Desc {
+  font-size: 2em;
+}
+
+.Contact .Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.Contact .Button {
+  margin-top: 20px;
+  width: 150px;
+  background-color: #f4c430;
+  color: black;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.Contact hr {
+  border: none;
+  color: #f4c430;
+  background-color: #f4c430;
+  height: 1px;
+}

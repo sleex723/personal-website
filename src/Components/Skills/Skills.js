@@ -5,16 +5,15 @@ const skills = (props) => {
   return(
     <div className={styles.Background}>
       <div className={styles.SkillsContainer}>
-        <div className={styles.Title}>
-          Skills
-        </div>
-        <div className={styles.Desc}>
-          Things that i'm good at
+        <div className={styles.Header}>
+          <div className={styles.Title}>Skills</div>
+          <div className={styles.Desc}>
+            Things that i'm good at
+          </div>
         </div>
         <hr/>
       </div>
       <hr/>
-
     </div>
   )
 }
