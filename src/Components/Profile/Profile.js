@@ -23,8 +23,12 @@ const profile = (props) => {
 					</div>
 					<br />
 					<div className={styles.Social}>
-						<img src={Github} />
-						<img src={LinkedIn} />
+						<a href="https://github.com/sleex89" target="_blank">
+							<img className={styles.Icon} src={Github} />
+						</a>
+						<a href="https://www.linkedin.com/in/samuel-lee723/" target="_blank">
+							<img className={styles.Icon} src={LinkedIn} />
+						</a>
 					</div>
 				</div>
 			</div>
@@ -37,11 +41,9 @@ const profile = (props) => {
 						<div className={styles.SchoolYear}>2017-2018</div>
 					</div>
 					<div>
-						<div className={styles.SchoolDesc}>
-							Advanced Software Engineering Immersive Program
-						</div>
+						<div className={styles.SchoolDesc}>Advanced Software Engineering Immersive Program</div>
 					</div>
-          <div className={styles.SchoolLoc}>San Francisco, CA</div>
+					<div className={styles.SchoolLoc}>San Francisco, CA</div>
 				</div>
 				<div className={styles.SchoolContainer}>
 					<div>
@@ -49,11 +51,9 @@ const profile = (props) => {
 						<div className={styles.SchoolYear}>2007-2012</div>
 					</div>
 					<div>
-						<div className={styles.SchoolDesc}>
-							International Management, Bachelor of Arts
-						</div>
+						<div className={styles.SchoolDesc}>International Management, Bachelor of Arts</div>
 					</div>
-          <div className={styles.SchoolLoc}>Malibu, CA</div>
+					<div className={styles.SchoolLoc}>Malibu, CA</div>
 				</div>
 			</div>
 		</div>;
