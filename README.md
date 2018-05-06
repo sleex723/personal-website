@@ -1,2 +1,2 @@
 ## Website Link
-www.samleecodes.herokuapp.com
+https://samleecodes.herokuapp.com/
