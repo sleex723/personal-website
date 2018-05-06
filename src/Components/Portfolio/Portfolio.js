@@ -4,6 +4,7 @@ import Narwhal from '../../img/Narwhal.png';
 import Basicly from '../../img/Basicly.png';
 import Github from '../../img/github1.png';
 import Website from '../../img/website.png';
+import FoodFinder from '../../img/foodf.png';
 
 class Portfolio extends Component {
   state = {}
@@ -68,13 +69,13 @@ class Portfolio extends Component {
 				</div>
 				<div className={styles.AppRow}>
 					<div className={styles.container}>
-						<img src={Narwhal} alt="Avatar" className={styles.image} />
+						<img src={FoodFinder} alt="Avatar" className={styles.image} />
 						<div className={styles.overlay}>
 							<div className={styles.text}>
 								<div className={styles.textHeader}>Food Finder</div>
 								<hr />
 								<div>
-									An application to help you decide what to eat.
+									An application to help you decide what to eat. (Currently refactoring old code)
 									<br />
 									<br />
 									<strong>
@@ -82,12 +83,12 @@ class Portfolio extends Component {
 									</strong> React, Node.js, Express.js, Yelp API, and Firebase Database.
 								</div>
 								<div className={styles.Social}>
-									<a href="https://github.com/basicly/basicly" target="_blank">
+									<a href="https://github.com/sleex89/food-finder" target="_blank">
 										<img className={styles.Icon} src={Github} />
 									</a>
-									{/* <a href="https://basicly.herokuapp.com/" target="_blank">
+									<a href="https://foodfindapp.herokuapp.com/" target="_blank">
 										<img className={styles.Icon} src={Website} />
-									</a> */}
+									</a>
 								</div>
 							</div>
 						</div>
