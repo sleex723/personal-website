@@ -16,7 +16,9 @@ class Header extends Component {
               <Navbar.Brand>
                 <a href="#home">Samuel Lee</a>
               </Navbar.Brand>
+              <Navbar.Toggle/>
             </Navbar.Header>
+            <Navbar.Collapse>
             <Nav pullRight>
               <NavItem eventKey={1} href="#profile">
                 Profile
@@ -31,6 +33,7 @@ class Header extends Component {
                 Contact
               </NavItem>
             </Nav>
+            </Navbar.Collapse>
           </Navbar>
         </Scrollspy>
         <Jumbotron className={styles.banner}>
