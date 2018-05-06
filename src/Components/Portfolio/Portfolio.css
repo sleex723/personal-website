@@ -1,0 +1,106 @@
+.Portfolio {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  padding: 40px 180px;
+}
+
+.Portfolio .Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Portfolio .Title {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.Portfolio .Desc {
+  font-size: 2em;
+}
+
+.Portfolio .AppRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.Portfolio .Applications {
+  display: flex;
+  flex-direction: column;
+}
+
+.Portfolio hr {
+  border: none;
+  color: #f4c430;
+  background-color: #f4c430;
+  height: 1px;
+}
+
+
+.Portfolio .container {
+  position: relative;
+}
+
+.Portfolio .image {
+  display: block;
+  height: 275px;
+}
+
+.Portfolio .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 275px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f4c430;
+}
+
+.Portfolio .container:hover .overlay {
+  opacity: .8;
+}
+
+.Portfolio .text {
+  color: #000;
+  font-size: 1em;
+  position: absolute;
+  padding: 25px;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; */
+}
+
+.Portfolio .Social {
+  /* display: flex;
+  justify-content: flex-end; */
+  margin-top: 20px;
+}
+
+.Portfolio .Icon {
+  margin-right: 5px;
+}
+
+.Portfolio .textHeader {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.Portfolio .text hr {
+  border: none;
+  color: #000;
+  background-color: #000;
+  height: 1px;
+  width: 100%;
+}

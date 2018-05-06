@@ -10,7 +10,7 @@ class Header extends Component {
   render() {
     return(
       <div>
-        <Scrollspy items={ ['home', 'profile', 'skills', 'contact'] } currentClassName="is-current">
+        <Scrollspy items={ ['home', 'profile', 'skills', 'portfolio', 'contact'] } currentClassName="is-current">
           <Navbar fixedTop>
             <Navbar.Header>
               <Navbar.Brand>
@@ -24,7 +24,7 @@ class Header extends Component {
               <NavItem eventKey={2} href="#skills">
                 Skills
               </NavItem>
-              <NavItem eventKey={3} href="#">
+              <NavItem eventKey={3} href="#portfolio">
                 Portfolio
               </NavItem>
               <NavItem eventKey={4} href="#contact">
