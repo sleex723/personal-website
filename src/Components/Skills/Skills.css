@@ -36,7 +36,16 @@
 .SkillsContainer .Skill {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   font-size: 1.2em;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 8px;
+}
+
+.SkillsContainer .Skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .SkillsContainer hr {
