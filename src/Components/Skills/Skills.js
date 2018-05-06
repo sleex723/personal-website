@@ -304,7 +304,7 @@ const skills = (props) => {
 							</div>
 						</div>
 						<div className={styles.Skill}>
-							<div className={styles.SkillName}>AWS</div>
+							<div className={styles.SkillName}>AWS S3</div>
 							<div className={styles.Stars}>
 								<span class="glyphicon glyphicon-star" />
 								<span class="glyphicon glyphicon-star" />
