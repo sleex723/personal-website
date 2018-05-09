@@ -83,7 +83,7 @@ class Portfolio extends Component {
 									</strong> React, Node.js, Express.js, Yelp API, and Firebase Database.
 								</div>
 								<div className={styles.Social}>
-									<a href="https://github.com/sleex89/food-finder" target="_blank">
+									<a href="https://github.com/sleex89/foodfinder" target="_blank">
 										<img className={styles.Icon} src={Github} />
 									</a>
 									<a href="https://foodfindapp.herokuapp.com/" target="_blank">
