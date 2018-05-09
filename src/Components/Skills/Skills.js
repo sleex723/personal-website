@@ -209,7 +209,7 @@ const skills = (props) => {
 								<span class="glyphicon glyphicon-star" />
 								<span class="glyphicon glyphicon-star" />
 								<span class="glyphicon glyphicon-star" />
-								<span class="glyphicon glyphicon-star" />
+							<span class="glyphicon glyphicon-star-empty" />
 								<span class="glyphicon glyphicon-star-empty" />
 							</div>
 						</div>
