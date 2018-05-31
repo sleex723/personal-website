@@ -5,6 +5,7 @@ import Basicly from '../../img/Basicly.png';
 import Github from '../../img/github1.png';
 import Website from '../../img/website.png';
 import FoodFinder from '../../img/foodf.png';
+import Outdoors from '../../img/Outdoors.png';
 
 class Portfolio extends Component {
   state = {}
@@ -87,6 +88,31 @@ class Portfolio extends Component {
 										<img className={styles.Icon} src={Github} />
 									</a>
 									<a href="https://foodfindapp.herokuapp.com/" target="_blank">
+										<img className={styles.Icon} src={Website} />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className={styles.container}>
+						<img src={Outdoors} alt="Avatar" className={styles.image} />
+						<div className={styles.overlay}>
+							<div className={styles.text}>
+								<div className={styles.textHeader}>Outdoor Responsive Site - SASS</div>
+								<hr />
+								<div>
+									Put my SASS (SCSS) skills to test by implementing the seven to one model folder structure.
+									<br />
+									<br />
+									<strong>
+										Tech stack:
+									</strong> SASS Pre-Processor, HTML/CSS, Javascript, Mixins, 7 to 1 Structure, Block Element Modifier (BEM), Heroku, Modular CSS
+								</div>
+								<div className={styles.Social}>
+									<a href="https://github.com/sleex89/sass-outdoors" target="_blank">
+										<img className={styles.Icon} src={Github} />
+									</a>
+									<a href="https://sass-outdoors.herokuapp.com/" target="_blank">
 										<img className={styles.Icon} src={Website} />
 									</a>
 								</div>

@@ -52,6 +52,7 @@
 .Portfolio .image {
   display: block;
   height: 275px;
+  width: 441px;
 }
 
 .Portfolio .overlay {
@@ -61,6 +62,7 @@
   left: 0;
   right: 0;
   height: 275px;
+  width: 441px;
   opacity: 0;
   transition: .5s ease;
   background-color: #f4c430;

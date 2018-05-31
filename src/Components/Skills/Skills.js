@@ -206,8 +206,8 @@ const skills = (props) => {
 						<div className={styles.Skill}>
 							<div className={styles.SkillName}>Sass</div>
 							<div className={styles.Stars}>
-								<span class="glyphicon glyphicon-star" />
-								<span class="glyphicon glyphicon-star" />
+							<span class="glyphicon glyphicon-star" />
+							<span class="glyphicon glyphicon-star" />
 								<span class="glyphicon glyphicon-star" />
 							<span class="glyphicon glyphicon-star-empty" />
 								<span class="glyphicon glyphicon-star-empty" />

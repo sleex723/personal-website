@@ -34,8 +34,8 @@ const profile = (props) => {
 			</div>
 			<hr />
 			<div className={styles.Education}>
-				<div className={styles.EducationTitle}>Education</div>
-				<div className={styles.SchoolContainer}>
+					<div className={styles.EducationTitle}>Education</div>
+						<div className={styles.SchoolContainer}>
 					<div>
 						<div className={styles.SchoolTitle}>Hack Reactor</div>
 						<div className={styles.SchoolYear}>2017-2018</div>
