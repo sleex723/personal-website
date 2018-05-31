@@ -16,7 +16,7 @@ class App extends Component {
 				<section id="profile"><Profile /></section>
 				<section id="skills"><Skills /></section>
 				<section id="portfolio"><Portfolio /></section>
-				{/* <section id="contact"><Contact /></section> */}
+				<section id="contact"><Contact /></section>
 			</div>
 		)
   }

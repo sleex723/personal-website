@@ -53,3 +53,9 @@
   background-color: #f4c430;
   height: 1px;
 }
+
+.Contact .Info {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}

@@ -24,34 +24,12 @@ class Contact extends Component {
         <div className={styles.Contact}>
           <div className={styles.Header}>
             <div className={styles.Title}>Contact</div>
-            <div className={styles.Desc}>You can send me a message here</div>
+            <div className={styles.Desc}>Here are my contact details</div>
           </div>
           <hr/>
-          <form className={styles.Form}>
-            <ControlLabel>Name</ControlLabel>
-            <FormControl
-              type="text"
-              name="name"
-              value={this.state.name}
-              onChange={this.handleChange}
-            />
-            <ControlLabel>E-mail Address</ControlLabel>
-            <FormControl
-              type="email"
-              name="email"
-              value={this.state.email}
-              onChange={this.handleChange}
-            />
-            <ControlLabel>Message</ControlLabel>
-            <FormControl
-              componentClass="textarea"
-              type="text"
-              name="message"
-              value={this.state.message}
-              onChange={this.handleChange}
-            />
-            <button type="submit" className={styles.Button}>Send</button>
-          </form>
+          <div className={styles.Info}>samlee723@gmail.com</div>
+          <div className={styles.Info}>(909) 723-7449</div>
+          <div className={styles.Info}>Los Angeles, CA</div>
           <hr/>
           <div>
             <div className={styles.Social}>
